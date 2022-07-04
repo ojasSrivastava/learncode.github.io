@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnCode | Learn Beyond Coding</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo" class="imglogo">
+        </div>
+        <ul class="navlist">
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#courses">Cources</a></li>
+            <li class="item"><a href="#servies">Facilities</a></li>
+            <li class="item"><a href="#contact">Contact&nbsp;Us</a></li>
+        </ul>
+        <a href="#" class="btnlink"><button class="btnyt">Free Trial</button></a>
+        <div class="burgur" id="menu">
+            <div class="bur"></div>
+            <div class="bur"></div>
+            <div class="bur"></div>
+        </div>
+    </nav>
+    <div class="bg">
+        <video class="vidbg" autoplay muted loop>
+            <source src="img/bgvid.mp4" type="video/mp4">
+        </video>
+    </div>
+    <section class="home" id="home">
+        <h1 class="head">Learn Beyond Coding <i><span class="color">LearnCode</span></i></h1>
+        <p class="intro">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aspernatur reprehenderit ad optio
+            incidunt? Quo nisi rem sequi totam molestiae.
+        </p>
+    </section>
+
+    <section class="courses">
+        <h1 class="courseshead" id="courses">Courses</h1>
+        <div class="card-set">
+            <div class="card">
+                <img src="img/pythonlogo.svg" alt="img" class="pic">
+                <h2 class="name">Python</h2>
+            </div>
+            <div class="card">
+                <img src="img/cpp-logo.png" alt="img" class="pic">
+                <h2 class="name">C++</h2>
+            </div>
+            <div class="card">
+                <img src="img/htmlcsslogo.jpg" alt="img" class="pic">
+                <h2 class="name">HTML & CSS</h2>
+            </div>
+            <div class="card">
+                <img src="img/JavaScriptLogo.jpg" alt="img" class="pic">
+                <h2 class="name">JavaScript</h2>
+            </div>
+            <div class="card">
+                <img src="img/java-logo.png" alt="img" class="pic">
+                <h2 class="name">Java</h2>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="servies">
+        <h1 class="serve" id="servies">Facilities</h1>
+        <div class="servies-list">
+            <div class="serve-card">
+                <i class="fa-solid fa-person"></i>
+                <h3 class="servehead">Certified Teachers</h3>
+                <p class="servepara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, amet? Suscipit
+                    consequuntur consequatur laboriosam laborum </p>
+            </div>
+            <div class="serve-card">
+                <i class="fa-solid fa-mask-face"></i>
+                <h3 class="servehead">Vaccinated Employees</h3>
+                <p class="servepara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, amet? Suscipit
+                    consequuntur consequatur laboriosam laborum </p>
+            </div>
+            <div class="serve-card">
+                <i class="fa-solid fa-broom"></i>
+                <h3 class="servehead">Clean Atmosphere</h3>
+                <p class="servepara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, amet? Suscipit
+                    consequuntur consequatur laboriosam laborum </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact">
+        <h1 class="contacthead" id="contact">Contact Us</h1>
+        <div class="form">
+            <form action="#" onsubmit="form();">
+                <div class="formdiv">
+                    <h3 class="formcontent name"><i class="fas fa-user"></i></h3>
+                    <input type="text" name="name" id="name" class="iteraction" placeholder="Enter Your Name">
+                </div>
+                <div class="formdiv">
+                    <h3 class="formcontent email"><i class="fas fa-envelope"></i></h3>
+                    <input type="email" name="email" id="email" class="iteraction" placeholder="Enter Your E-Mail">
+                </div>
+                <div class="formdiv">
+                    <h3 class="formcontent Where"><i class="fa-solid fa-phone"></i></h3>
+                    <input type="text" name="location" id="location" class="iteraction"
+                        placeholder="Enter Your Phone Number">
+                </div>
+
+                <button type="submit" class="btn-form">Send E-mail</button>
+            </form>
+        </div>
+    </section>
+    <hr>
+    <!-- <section class="faq">
+        <h1 class="faqhead" id="faq">FAQs</h1>
+        <div class="faqmain">
+            <div>
+                <h2 class="ques"><strong>👉 What is the regitration fees/addmisson fees in LearnCode?</strong></h2>
+                <p class="ans">Ans. There is no addmisson or registration fee required to join LearnCode.</p>
+            </div>
+            <div>
+                <h2 class="ques"><strong>👉 What are the topics tought in Pythonprogramming?</strong></h2>
+                <p class="ans">Ans. In this course we will teach you basic python programming, some
+                    modules and machine learing.</p>
+            </div>
+            <div>
+                <h2 class="ques"><strong>👉 Is there any certification after the completion of any particular course?</strong></h2>
+                <p class="ans">Ans. Yes, you will get a verified certificate for any course you complete.</p>
+            </div>
+            <div>
+                <h2 class="ques"><strong>👉 In how many cities the center of LearnCode is located?</strong></h2>
+                <p class="ans">Ans. We have our centers in Lucknow, Delhi and Mumbai and we offer online classes also.
+                </p>
+            </div>
+        </div>
+    </section> -->
+    <footer>
+        Created by Master Of Coding | CopyRight LearnCode
+    </footer>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
